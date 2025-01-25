@@ -1,0 +1,371 @@
+/* Base Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar-container {
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 30px;
+  background-color: black;
+  color: #fff;
+  box-shadow: 1px 1px 2px rgb(39, 37, 37);
+}
+
+.navbar-logo h2 {
+  font-size: 1.5rem;
+}
+.navbar h2 {
+  color: rgb(194, 30, 30);
+  background-color: black;
+  border: 6px solid rgb(194, 30, 30);
+}
+.navbar-logo span {
+  color: black;
+  background-color: white;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  padding: 6px;
+  margin: 17px;
+  text-align: center;
+  justify-content: center;
+}
+
+.navbar-menu li {
+  position: relative;
+}
+
+.navbar-menu li a,
+.dropdown-toggle {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.navbar-menu li a:hover {
+  color: rgb(194, 30, 30);
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #444;
+  list-style: none;
+  padding: 10px;
+  display: block;
+  z-index: 1000;
+}
+
+.dropdown-menu li a {
+  display: block;
+  padding: 5px 10px;
+  color: #fff;
+  text-decoration: none;
+}
+.dropdown-menu li a:hover {
+  background-color: black;
+  color: rgb(194, 30, 30);
+}
+
+.btn-register {
+  padding: 10px 20px;
+  background-color: #00bcd4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-register:hover {
+  background-color: darkblue;
+}
+.upper-row-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  background-color: rgb(194, 30, 30);
+  position: fixed;
+  top: 79px;
+  left: 0px;
+  width: 100%;
+  z-index: 1;
+  overflow: hidden; /* To hide the text once it moves out of the container */
+  box-shadow: 1px 4px 6px rgb(85, 4, 4);
+}
+
+.moving-text-1 {
+  font-size: 1.3rem;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  white-space: nowrap;
+  margin-top: 17px;
+  animation: moveText 18s linear infinite; /* Animation effect */
+}
+
+/* Keyframes for the text animation (right to left) */
+@keyframes moveText {
+  0% {
+    transform: translateX(100%); /* Start from the right */
+  }
+  100% {
+    transform: translateX(-100%); /* Move to the left */
+  }
+}
+
+/* Mobile Styles */
+.hamburger {
+  display: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 78%;
+  height: 100%;
+  background-color: black;
+  color: white;
+  transition: left 0.3s ease;
+  z-index: 1000;
+}
+
+.mobile-menu.open {
+  left: 0;
+}
+
+.mobile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+.mobile-header h2 {
+  color: rgb(194, 30, 30);
+  background-color: black;
+  border: 6px solid rgb(194, 30, 30);
+}
+.close-icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+  border: px solid white;
+  background-color: white;
+  color: black;
+}
+
+.mobile-menu-list {
+  list-style: none;
+  padding: 0;
+}
+
+.mobile-menu-list li {
+  padding: 15px;
+  border-bottom: 1px solid #444;
+}
+
+.mobile-menu-list li a {
+  text-decoration: none;
+  color: white; /* General Styles */
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    padding: 10px 20px;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .navbar-logo {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .navbar-logo span {
+    color: #00bcd4;
+  }
+
+  .navbar-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar-menu li {
+    margin: 0 10px;
+  }
+
+  .navbar-menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+
+  .register-btn {
+    padding: 8px 20px;
+    background: #00bcd4;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .register-btn:hover {
+    background: blue;
+  }
+
+  /* Dropdown Menu */
+  .dropdown {
+    position: relative;
+  }
+  .dropdown-menu {
+    position: absolute;
+    top: 40px;
+    background: black;
+    padding: 10px;
+    list-style: none;
+    display: block;
+    cursor: pointer;
+  }
+
+  .dropdown-menu li {
+    margin: 5px 0;
+  }
+  . .dropdown-menu a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .dropdown-menu a:hover {
+    color: #00bcd4;
+  }
+
+  /* Mobile Menu */
+  .mobile-menu-icon {
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+
+  .mobile-menu {
+    position: fixed;
+    left: -50%;
+    top: 0;
+    width: 65%;
+    height: 100%;
+    background: black;
+    color: #fff;
+    overflow-y: auto;
+    transition: left 0.3s ease;
+  }
+
+  .mobile-menu.open {
+    left: 0;
+  }
+
+  .mobile-menu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .mobile-menu-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  .mobile-menu-list li {
+    padding: 15px;
+    border-bottom: 1px solid #444;
+  }
+
+  .mobile-menu-list a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .mobile-menu-list a:hover {
+    color: red;
+  }
+
+  .dropdown1 li a {
+    text-decoration: none;
+  }
+  .mobile-menu .register-btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .navbar-menu {
+      display: none;
+    }
+
+    .mobile-menu-icon {
+      display: block;
+    }
+    .moving-text {
+      font-size: 1rem; /* Further reduce text size on mobile */
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    .moving-text {
+      font-size: 1.5rem; /* Adjust text size on smaller screens */
+    }
+  }
+}
+
+.mobile-menu-list li a:hover {
+  color: rgb(153, 24, 24);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar-links {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+  .moving-text {
+    font-size: 1rem; /* Further reduce text size on mobile */
+    width: 100%;
+  }
+}

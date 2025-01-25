@@ -1,0 +1,101 @@
+/* General container for the layout */
+.book-now-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/033/501/397/small_2x/white-and-blue-abstract-wave-background-ai-generative-photo.jpg");
+  padding-top: 120px;
+  position: relative;
+  flex-wrap: wrap;
+  background-size: cover;
+  background-position: center; /* Ensure responsiveness on smaller screens */
+}
+
+/* Left-side image container */
+.image-container {
+  flex: 1;
+  max-width: 50%;
+  padding: 20px;
+}
+
+.responsive-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  height: 500px;
+  border-radius: 120px / 120px;
+  box-shadow: 0 4px 8px rgba(219, 25, 25, 0.1);
+}
+
+/* Right-side form container */
+.form-container {
+  flex: 1;
+  max-width: 40%;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 1 4px 8px black;
+}
+
+/* Form styles */
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+textarea {
+  resize: none;
+}
+
+.submit-button {
+  width: 30%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  justify-content: center;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .book-now-container {
+    flex-direction: column;
+  }
+
+  .image-container,
+  .form-container {
+    max-width: 100%;
+    padding: 10px;
+  }
+}

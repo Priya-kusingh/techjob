@@ -1,0 +1,294 @@
+.eligibility-section {
+  text-align: center;
+}
+
+.eligibility-items {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.eligibility-item {
+  width: 30%;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+}
+
+.eligibility-item img {
+  width: 50px;
+  height: 50px;
+}
+
+/* CurriculumSection.css */
+.curriculum-section {
+  margin-top: 20px;
+}
+
+.curriculum-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.curriculum-item {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.curriculum-item h3 {
+  margin-bottom: 10px;
+}
+
+/* ________________________________experience-------------------------- */
+
+/* Container for the entire content */
+.training-course-container {
+  padding: 0px;
+  background-color: #fff;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  /* background-repeat: no-repeat; */
+
+  background-image: url("https://wallpapers.com/images/hd/powerpoint-blue-background-c9jh2bb1dcgzcup2.jpg");
+}
+
+/* Section styles */
+.section {
+  margin-bottom: 50px;
+}
+
+/* Section titles */
+.section-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #b62b2b;
+  margin-bottom: 20px;
+}
+
+/* Section content */
+.section-content {
+  font-size: 18px;
+  color: #333;
+  line-height: 1.6;
+  /* max-width: 800px; */
+  margin: 0 auto;
+  padding: 0 20px;
+  border-bottom: 0.5px solid #ccc;
+  padding-bottom: 50px;
+}
+
+/* ________________________________Team member  */
+
+.Team {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  margin-left: 0 auto;
+  padding: 130px;
+}
+/* Container for the entire team gallery */
+.team-gallery-container {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin: -61px 55px 0px 41px;
+  padding: 55px;
+  flex-wrap: wrap;
+  background-color: black;
+  border-radius: 30px 130px;
+}
+.team-member-card {
+  position: relative;
+  width: 250px;
+  height: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.team-member-card:hover {
+  transform: scale(1.05);
+}
+
+/* Team member image styles */
+.team-member-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Team member name overlay */
+.team-member-name {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  /* color: black; */
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+/* PartnersCarousel.css */
+
+.partners-carousel-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 15px 0;
+  text-align: center;
+  /* background-color: #124e66; */
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: rgb(190, 35, 35);
+}
+
+.highlight {
+  color: red;
+  text-decoration: underline;
+}
+
+.carousel-row {
+  margin-bottom: 20px;
+}
+
+.partner-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.partner-item img {
+  /* max-width: 100%; */
+  width: 220px;
+  height: 150px;
+  object-fit: contain;
+  padding: 10px;
+  /* border: 10px ; */
+  background-color: black;
+  border: 1px solid #ddd;
+  box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* FAQSection.css */
+
+.faquent-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 100px / 125px;
+  background-color: black;
+}
+.faquent-items {
+  border-bottom-left-radius: 50%;
+}
+
+.faquent-item {
+  padding: 14px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.faquent-item:hover {
+  background-color: #e1dede;
+  border-radius: 25px;
+}
+
+.faquent-question {
+  display: flex;
+  padding: 23px;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: bold;
+
+  background: rgb(250, 243, 243);
+  border-radius: 20px;
+  box-shadow: 1px 1px 8px rgb(10, 6, 6);
+}
+
+.faquent-answer {
+  margin-top: 2px;
+  font-size: 16px;
+  line-height: 2;
+  color: #555;
+  background: rgb(250, 243, 243);
+  border-radius: 10px;
+  box-shadow: 1px 1px 8px rgb(10, 6, 6);
+}
+
+/* Toggle Button */
+.faquent-toggle {
+  font-size: 24px;
+  line-height: 1;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 22px;
+  }
+
+  .section-content {
+    font-size: 16px;
+  }
+  .faquent-container {
+    padding: 15px;
+  }
+
+  .faquent-question {
+    font-size: 16px;
+  }
+
+  .faquent-answer {
+    font-size: 14px;
+  }
+  .eligibility-items {
+    flex-direction: column;
+  }
+
+  .curriculum-items {
+    grid-template-columns: 1fr;
+  }
+  .team-member-card {
+    width: 300px;
+    height: 350px;
+  }
+
+  .team-member-name {
+    font-size: 18px;
+  }
+}
+
+/* Smaller screens (below 480px) */
+@media (max-width: 480px) {
+  .section-title {
+    font-size: 18px;
+  }
+
+  .section-content {
+    font-size: 14px;
+  }
+  .faquent-question {
+    font-size: 14px;
+  }
+
+  .faquent-answer {
+    font-size: 13px;
+  }
+
+  .faquent-toggle {
+    font-size: 20px;
+  }
+  .team-member-card {
+    width: 100%;
+    height: auto;
+  }
+
+  .team-member-name {
+    font-size: 16px;
+  }
+}
