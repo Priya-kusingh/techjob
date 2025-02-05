@@ -49,7 +49,7 @@ const Contact = () => {
             <strong>Email:</strong> techjobmentors@gmail.com
           </p>
           <p className="Date">
-            <strong>Address:</strong> 1234 Your Street, City, Country
+            <strong>Address:</strong> Candor Tech Sector 135 Noida, India
           </p>
         </div>
 
