@@ -10,17 +10,8 @@ const Footer = () => {
         {/* About Section */}
         <div className="footer-section about">
           <h2>
-            Tech <span>Mentor</span>
+            Tech <span>Mentor</span>{" "}
           </h2>
-          {/* <img
-            src="https://via.placeholder.com/150" // Add your logo source here
-            alt="Shining Future Technologies"
-            className="footer-logo"
-          /> */}
-          <p>
-            Tech Mentor India’s training programs are designed in sync with
-            current industry trends and job openings in MNCs.
-          </p>
         </div>
 
         {/* Useful Links Section */}
@@ -47,21 +38,57 @@ const Footer = () => {
           <h4>All Courses</h4>
           <ul>
             <li>
-              <a href="/courses/linux">Unix/Linux</a>
+              <a href="/courses/linux">Application Support</a>
             </li>
             <li>
-              <a href="/courses/oracle-sql">MYSQL/SQL/PLSQL</a>
+              <a href="/courses/frontend">Frontend Developer</a>
             </li>
             <li>
-              <a href="/courses/shell-script"> Shell Scripting</a>
+              <a href="/courses/backend">Backend Developer</a>
             </li>
             <li>
-              <li>
-                <a href="/courses/aws">AWS Services</a>
-              </li>
-              <a href="/courses/perl">Perl Scripting</a>
+              <a href="/courses/cloud">Cloud Engineer</a>
             </li>
-
+            <li>
+              {" "}
+              <a href="/courses/qa">QA Engineer</a>
+            </li>
+            <li>
+              {" "}
+              <a href="/courses/mobile">Mobile App Engineer</a>
+            </li>
+            <li>
+              {" "}
+              <a href="/courses/devops">DevOps Engineer</a>
+            </li>
+            <li>
+              {" "}
+              <a href="/courses/site">Site Reliability Engineer</a>
+            </li>
+            <li>
+              {" "}
+              <a href="/courses/big">Big Data Engineer</a>
+            </li>
+            <li>
+              {" "}
+              <a href="/courses/cyber">Cyber Security Engineer</a>
+            </li>
+            <li>
+              {" "}
+              <a href="/courses/machine">Machine Learning Engineer</a>
+            </li>
+            <li>
+              {" "}
+              <a href="/courses/data">Data Architect</a>
+            </li>
+            <li>
+              {" "}
+              <a href="/courses/software">Software Architect</a>
+            </li>
+            <li>
+              {" "}
+              <a href="/courses/chief">Chief Technology Officer</a>
+            </li>
             <li>
               <a href="/courses/tools">
                 Introduction to Various Tools Used in IT Industry
@@ -73,7 +100,7 @@ const Footer = () => {
         {/* Contact Section */}
         <div className="footer-section contact">
           <h4>Contact Us</h4>
-          <p>Address: Delhi NCR </p>
+          <p>Address: Candor Tech Sector 135 Noida, India</p>
           <p>
             Mobile No: <a href="tel:+919565345676">+91 85273 45379</a>
           </p>
