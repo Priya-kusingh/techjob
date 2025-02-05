@@ -13,11 +13,15 @@ const Book = () => {
 
   const courses = [
     "Application Support Engineer",
-    "Web Development",
+    "Frontend Developer",
     "Software Engineer",
     "DBA",
     "Cloud Engineer",
     "Testing Engineer",
+    "Python Developer",
+    "DevOps Engineer",
+    "QA Engineer",
+    "Cyber Security Engineer",
     "Other",
   ];
 
