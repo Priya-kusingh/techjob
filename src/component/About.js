@@ -94,25 +94,22 @@ const About = () => {
             />
           </div>
           <div className="about-content">
-            <h3>About Tech Mentors</h3>
-            <h1>4+ Years Of Success</h1>
+            {/* <h3>About Tech Mentors</h3> */}
+            {/* <h1>10+ Years Of Success</h1> */}
             <p>
               Tech Mentors is a pioneering education consultancy and career
               guidance firm dedicated to empowering students and professionals
               in the realms of education, employment, software industry, and
               services. Our comprehensive suite of services encompasses
               training, SEO and SEM, web design and development, social media
-              marketing, and software development. Tech Mentors was founded by a
-              team of visionary professionals committed to fostering technical
-              excellence and innovation. Our founding team comprises seasoned
-              experts with a deep understanding of the latest technologies and
-              industry trends.In response to the burgeoning demand for expertise
-              in digital marketing, e-commerce, and related fields,At Tech
-              Mentors, we envision a future where individuals and organizations
-              can leverage technology to drive innovation, growth, and success.
-              We are committed to bridging the skills gap in the tech industry
-              by providing accessible, high-quality training and
-              mentorship programs.
+              marketing, and software development.
+            </p>
+            <h3>Founding Team</h3>
+            <p>
+              Tech Mentors was founded by a team of visionary professionals
+              committed to fostering technical excellence and innovation. Our
+              founding team comprises seasoned experts with a deep understanding
+              of the latest technologies and industry trends.
             </p>
           </div>
         </div>
@@ -124,21 +121,23 @@ const About = () => {
             {" "}
             <div className="about-content">
               {/* <h3>Mission Statements and Roles And Our Vision</h3> */}
-              <h1>The Roles of Tech Mentors and Mission Statements</h1>
+
+              <h3> Mission </h3>
               <p>
                 In response to the burgeoning demand for expertise in digital
                 marketing, e-commerce, and related fields, Tech Mentors strives
                 to establish itself as a premier training organization. We cater
                 specifically to college and university students, providing them
                 with cutting-edge knowledge and skills to excel in their chosen
-                careers.A tech mentor is a seasoned professional who provides
-                guidance, support, and expert advice to individuals and teams
-                seeking to enhance their technical skills and knowledge. Our
-                tech mentors are industry experts, thought leaders, and
-                experienced professionals who have navigated the complexities of
-                the tech industry. They offer invaluable insights, share best
-                practices, and help mentees overcome obstacles in their
-                technical journey.
+                careers.
+              </p>
+              <h3> Vision </h3>
+              <p>
+                At Tech Mentors, we envision a future where individuals and
+                organizations can leverage technology to drive innovation,
+                growth, and success. We are committed to bridging the skills gap
+                in the tech industry by providing accessible, high-quality
+                training and mentorship programs.
               </p>
             </div>
             <div className="about-image">
@@ -184,7 +183,7 @@ const About = () => {
         </div>
         {/* our placed students */}
         <div className="slider-container">
-          <h2 className="section-title">Our Placed Students</h2>
+          <h2 className="section-title">Placed Students</h2>
           <p className="some">
             The more that you read, the more things you will know. The more that
             you learn, the more places you’ll go . . . . .
