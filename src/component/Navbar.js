@@ -41,13 +41,13 @@ const Navbar = () => {
               {dropdownOpen && (
                 <ul className="dropdown-menu">
                   <li>
-                    <Link>Web Development</Link>
+                    <Link>Frontend Developer</Link>
                   </li>
                   <li>
                     <Link>Python Developer</Link>
                   </li>
                   <li>
-                    <Link>Testing Engineer</Link>
+                    <Link>QA Engineer</Link>
                   </li>
                   <li>
                     <Link>Application Support</Link>
@@ -56,7 +56,37 @@ const Navbar = () => {
                     <Link>Cloud Engineer</Link>
                   </li>
                   <li>
-                    <Link>DBA</Link>
+                    <Link>Backend Developer</Link>
+                  </li>
+                  <li>
+                    <Link>Mobile App Engineer</Link>
+                  </li>
+                  <li>
+                    <Link>DevOps Engineer</Link>
+                  </li>
+                  <li>
+                    <Link>Site Reliability Engineer</Link>
+                  </li>
+                  <li>
+                    <Link>Cyber Security Engineer</Link>
+                  </li>
+                  <li>
+                    <Link>Big Dtat Engineer</Link>
+                  </li>
+                  <li>
+                    <Link>Machine Learning</Link>
+                  </li>
+                  <li>
+                    <Link>Data Architect</Link>
+                  </li>
+                  <li>
+                    <Link>Quantitative Developer</Link>
+                  </li>
+                  <li>
+                    <Link>Software Architect</Link>
+                  </li>
+                  <li>
+                    <Link>Chief technology Officer</Link>
                   </li>
                 </ul>
               )}
@@ -115,13 +145,13 @@ const Navbar = () => {
             {dropdownOpen && (
               <ul className="mobile-menu-list">
                 <li>
-                  <Link>Web Development</Link>
+                  <Link>Frontend Developer</Link>
                 </li>
                 <li>
                   <Link>Python Developer</Link>
                 </li>
                 <li>
-                  <Link>Testing Engineer</Link>
+                  <Link>QA Engineer</Link>
                 </li>
                 <li>
                   <Link>Application Support</Link>
@@ -130,7 +160,37 @@ const Navbar = () => {
                   <Link>Cloud Engineer</Link>
                 </li>
                 <li>
-                  <Link>DBA</Link>
+                  <Link>Backend Developer</Link>
+                </li>
+                <li>
+                  <Link>Mobile App Engineer</Link>
+                </li>
+                <li>
+                  <Link>DevOps Engineer</Link>
+                </li>
+                <li>
+                  <Link>Site Reliability Engineer</Link>
+                </li>
+                <li>
+                  <Link>Cyber Security Engineer</Link>
+                </li>
+                <li>
+                  <Link>Big Dtat Engineer</Link>
+                </li>
+                <li>
+                  <Link>Machine Learning</Link>
+                </li>
+                <li>
+                  <Link>Data Architect</Link>
+                </li>
+                <li>
+                  <Link>Quantitative Developer</Link>
+                </li>
+                <li>
+                  <Link>Software Architect</Link>
+                </li>
+                <li>
+                  <Link>Chief technology Officer</Link>
                 </li>
               </ul>
             )}
