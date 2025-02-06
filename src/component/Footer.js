@@ -132,7 +132,8 @@ const Footer = () => {
 
       {/* Copyright Section */}
       <div className="footer-bottom">
-        <p>©2024. Tech Mentor. All Rights Reserved.</p>
+        <p> ©CopyrightTech Mentor. All Rights Reserved. | Disclaimer | Privacy
+          Policy</p>
       </div>
     </footer>
   );
