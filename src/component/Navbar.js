@@ -109,9 +109,9 @@ const Navbar = () => {
         </div>
         <div className="upper-row-1">
           <h1 className="moving-text-1">
-            "Boost your career with expert job consulting. Achieve your goals,
-            stand out to employers, and unlock new opportunities today!" and ✍
-            Registration is going on hurry up +9185273 45379🚀🚀
+           "Boost your career with expert job consulting. Achieve your goals,
+            stand out to employers, and unlock new opportunities!" and ✍
+            Registration is going on hurry up Mob.No: +9185273 45379 & Email: techjobmentor@gmail.com 🚀🚀
           </h1>
         </div>
       </div>
