@@ -6,6 +6,15 @@ import serviceImage3 from "../img/pyth.jpg";
 import serviceImage4 from "../img/aws.png";
 import serviceImage5 from "../img/perl.jpg";
 import serviceImage6 from "../img/tools.png";
+import serviceImage7 from "../img/software-architect.jpg";
+import serviceImage8 from "../img/mobile-app.jpg";
+import serviceImage9 from "../img/Site-realiablity.jpg";
+import serviceImage10 from "../img/cybersecurity.jpg";
+import serviceImage11 from "../img/Big-data.jpeg";
+import serviceImage12 from "../img/machine-learning.jpg";
+import serviceImage13 from "../img/data-architecht.jpg";
+import serviceImage14 from "../img/database-admin.jpg";
+import serviceImage15 from "../img/CTO.jpg";
 import call from "../img/calls.png";
 import resume from "../img/resume.png";
 import interview from "../img/int.png";
@@ -19,15 +28,15 @@ import learn from "../img/learn.png";
 const services = [
   {
     id: 1,
-    name: "Application Support",
+    name: "Application Support Engineer",
     image: serviceImage1,
-    link: "#application support",
+    link: "#application ",
   },
   {
     id: 2,
-    name: "DBA",
+    name: "Backend Developer",
     image: serviceImage2,
-    link: "#dba",
+    link: "#backend",
   },
   {
     id: 3,
@@ -43,15 +52,70 @@ const services = [
   },
   {
     id: 5,
-    name: "Web Development",
+    name: "Frontend Developer",
     image: serviceImage5,
-    link: "#web",
+    link: "#frontend",
   },
   {
     id: 6,
     name: "All service tools",
     image: serviceImage6,
     link: "#tools",
+  },
+  {
+    id: 7,
+    name: "Software Architect",
+    image: serviceImage7,
+    link: "#software",
+  },
+  {
+    id: 8,
+    name: "Mobile App Developer",
+    image: serviceImage8,
+    link: "#mobile",
+  },
+  {
+    id: 9,
+    name: "Site Realiability Engineer",
+    image: serviceImage9,
+    link: "#site",
+  },
+  {
+    id: 10,
+    name: "Cyber Security Engineer",
+    image: serviceImage10,
+    link: "#cyber",
+  },
+  {
+    id: 11,
+    name: "Big Data Engineer",
+    image: serviceImage11,
+    link: "#big",
+  },
+  {
+    id: 12,
+    name: "Machine Learning",
+    image: serviceImage12,
+    link: "#machine",
+  },
+  {
+    id: 13,
+    name: "Data Architect",
+    image: serviceImage13,
+    link: "#data",
+  },
+
+  {
+    id: 14,
+    name: "DBA",
+    image: serviceImage14,
+    link: "#dba",
+  },
+  {
+    id: 15,
+    name: "Chief Technology Officer",
+    image: serviceImage15,
+    link: "#chief",
   },
 ];
 
